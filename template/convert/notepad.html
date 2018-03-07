@@ -1,0 +1,108 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>صانع ملفات نوت باد اونلاين</title>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css">
+<link href="http://fonts.googleapis.com/earlyaccess/droidarabickufi.css">
+<style>
+
+
+html {
+  font-size: 10px;
+  font-size: 1.0rem;
+}
+
+body {
+  font-size: 10px;
+  font-size: 1.0rem;
+  font-family: "Droid Arabic Kufi", "Helvetica Neue", helvetica, arial, sans-serif;
+  color: #392F5A;
+  background-color: #EEEDEB;
+}
+
+h1 {
+  font-size: 40px;
+  font-size: 4.0rem;
+  font-family: "rawy-thin", "Helvetica Neue", helvetica, arial, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 15px;
+}
+
+#download-link {
+  display: none;
+}
+</style>
+</head>
+<body>
+
+
+
+<div class="text-center">
+	<h1>حفظ باسم ملف</h1>
+	
+	<p id="stats-msg"></p>
+	
+
+
+
+ <span id="stats-size">0</span>KB 
+
+
+<span id="stats-time">0</span>
+ثانية
+
+	<div class="container">
+
+		<!-- FILE NAME -->
+		<div class="row justify-content-md-center">
+			<div class="col-md-6">
+				<div class="form-group input-group">
+					<input type="text" 
+								 id="file-name"
+								 class="form-control" 
+								 placeholder="اسم الملف" 
+								 aria-label="File Name" 
+								 aria-describedby="filename-addon"/>
+					<span id="filename-addon" 
+								class="input-group-addon">
+						.txt
+					</span>
+				</div><!--.input-group-->
+			</div><!--.col-->
+		</div><!--.row-->
+		
+		<!-- FILE CONTENT -->
+		<div class="row justify-content-md-center">
+			<div class="col-md-6">
+				<div class="form-group">
+					<textarea id="file-contents" 
+										class="form-control" 
+										placeholder="محتويات الملف."
+										rows="4"></textarea>
+				</div><!--.form-group-->
+			</div><!--.col-->
+		</div><!--.row-->
+	</div><!--.container-->
+
+	<button type="button" 
+					id="save-file-btn" 
+					class="btn btn-secondary"
+					data-state="ready">
+		إعداد التحميل الخاص بك
+	</button>
+	
+
+</div><!--.text-center-->
+
+
+
+
+
+<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js'></script>
+<script type='text/javascript' src='https://rawgit.com/abdelalilebbihi/abdou_tech/master/template/js/script.js'></script>
+</body>
+</html>
