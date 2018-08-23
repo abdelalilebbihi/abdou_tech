@@ -5,29 +5,31 @@
             "id" :1,
             "thumbnail" : "https://khamsat.hsoubcdn.com/images/services/630458/67a653c2be36f4d2a0b5ef1ab7a92efc_thumb.jpg",
             "title" : "جعل مدونتك الشخصية تختصر الروابط وربح زيارات إضافية",
-            "link" : "https://khamsat.com/programming/css-html/740250"
+            "link" : "https://khamsat.com/programming/css-html/740250",
+            "numbuy" : "7"
             
             },
              {
             "id" :2,
             "thumbnail" : "https://khamsat.hsoubcdn.com/images/services/630458/87c577980eee13393928b65a0b0eca5f_thumb.jpg",
             "title" : "دعم فني لمدونات بلوجر مقابل 5 دولارات فقط",
-            "link" : "https://khamsat.com/programming/content-management-systems/742888"
+            "link" : "https://khamsat.com/programming/content-management-systems/742888",
+            "numbuy" : "4"
             
             },
            {
             "id" :3,
             "thumbnail" : "https://khamsat.hsoubcdn.com/images/services/630458/92ec4e76d485374a413a3110c1ebcd29_thumb.jpg",
             "title" : "قالب هل تعلم قالب لمدونات بلوجر متعدد الاستخدامات",
-            "link" : "https://khamsat.com/programming/css-html/901463"
-            
+            "link" : "https://khamsat.com/programming/css-html/901463",
+            "numbuy" : "4"
             },
            {
             "id" :4,
             "thumbnail" : "https://khamsat.hsoubcdn.com/images/services/630458/3515a46317448d44bd9f8dc27cf6b602_thumb.jpg",
             "title" : "إعلان على مدونة عبدو تكنولوجي - شهر",
-            "link" : "https://khamsat.com/marketing/advertising/948066"
-            
+            "link" : "https://khamsat.com/marketing/advertising/948066",
+            "numbuy" : "2"
             }
         
 
